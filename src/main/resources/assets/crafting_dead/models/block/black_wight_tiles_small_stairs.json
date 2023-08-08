@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "all": "crafting_dead:block/black_wight_tiles_small"
+  }
+}

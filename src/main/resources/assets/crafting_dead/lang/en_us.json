@@ -1,0 +1,48 @@
+{
+  //items
+  "item.crafting_dead.rock": "Rock",
+  "item.crafting_dead.wood": "Wood",
+  "item.crafting_dead.metal_fragments": "Metal fragments",
+  "item.crafting_dead.metal_scrap": "Scrap_metal",
+
+  //Brown_chip
+  "item.crafting_dead.brown_chip": "Brown chip",
+  "item.crafting_dead.brown_chip_empty": "Brown chip empty",
+  "item.crafting_dead.brown_chip_destroy": "Brown chip destroy",
+
+  //Green_chip
+  "item.crafting_dead.green_chip": "Green chip",
+  "item.crafting_dead.green_chip_empty": "Green chip empty",
+  "item.crafting_dead.green_chip_destroy": "Green chip destroy",
+
+  //Blue_chip
+  "item.crafting_dead.blue_chip": "Blue chip",
+  "item.crafting_dead.blue_chip_empty": "Blue chip empty",
+  "item.crafting_dead.blue_chip_destroy": "Blue chip destroy",
+
+  //red_chip
+  "item.crafting_dead.red_chip": "Red chip",
+  "item.crafting_dead.red_chip_empty": "Red chip empty",
+  "item.crafting_dead.red_chip_destroy": "Red chip destroy",
+
+  //tabs
+  "creativetab.crafting_dead_item_tab": "CD items",
+  "creativetab.crafting_dead_block_tab": "CD blocks",
+
+  //blocks
+  "block.crafting_dead.black_wight_tiles_small": "Black wight tiles small",
+  "block.crafting_dead.black_wight_tiles_small_slab": "Black wight tiles small slab",
+  "block.crafting_dead.black_wight_tiles_small_stairs": "Black wight tiles small stairs",
+  "block.crafting_dead.black_wight_tiles_small_crack": "Black wight tiles small crack",
+  "block.crafting_dead.black_wight_tiles_small_crack_slab": "Black wight tiles small crack slab",
+  "block.crafting_dead.black_wight_tiles_small_crack_stairs": "Black wight tiles small crack stairs",
+
+  //keycard
+  "item.crafting_dead.keycard_level_1": "§9Keycard level 1",
+  "item.crafting_dead.keycard_level_2": "§2Keycard level 2",
+  "item.crafting_dead.keycard_level_3": "§4Keycard level 3",
+  "item.crafting_dead.keycard_level_4": "§5Keycard level 4",
+  "item.crafting_dead.keycard_level_5": "§6Keycard level 5",
+  "item.crafting_dead.keycard_admin": "§dKeycard admin",
+  "item.crafting_dead.keycard_empty": "Keycard empty"
+}
