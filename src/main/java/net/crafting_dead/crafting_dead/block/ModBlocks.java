@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,14 +23,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL = registerBlock("black_wight_tiles_small",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
     public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL_SLAB = registerBlock("black_wight_tiles_small_slab",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
     public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL_STAIRS = registerBlock("black_wight_tiles_small_stairs",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
-    public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL_CRACK = registerBlock("black_wight_tiles_small_crack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
-    public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL_CRACK_SLAB = registerBlock("black_wight_tiles_small_crack_slab",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
-    public static final RegistryObject<Block> BLACK_WIGHT_TILES_SMALL_CRACK_STAIRS = registerBlock("black_wight_tiles_small_crack_stairs",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.CALCITE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

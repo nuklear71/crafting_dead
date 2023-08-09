@@ -60,9 +60,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL.get());
                         pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_SLAB.get());
                         pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_STAIRS.get());
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_CRACK.get());
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_CRACK_SLAB.get());
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_CRACK_STAIRS.get());
+
 
                     })
                     .build());

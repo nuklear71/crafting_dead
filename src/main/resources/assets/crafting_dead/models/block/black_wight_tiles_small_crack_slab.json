@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "all": "crafting_dead:block/black_wight_tiles_small_crack"
-  }
-}

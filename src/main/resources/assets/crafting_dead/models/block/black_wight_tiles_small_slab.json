@@ -1,6 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "all": "crafting_dead:block/black_wight_tiles_small"
+    "bottom": "crafting_dead:block/black_wight_tiles_small",
+    "side": "crafting_dead:block/black_wight_tiles_small",
+    "top": "crafting_dead:block/black_wight_tiles_small"
   }
 }
