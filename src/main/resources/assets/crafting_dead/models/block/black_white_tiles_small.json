@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "crafting_dead:block/black_wight_tiles_small"
+    "all": "crafting_dead:block/black_white_tiles_small"
   }
 }

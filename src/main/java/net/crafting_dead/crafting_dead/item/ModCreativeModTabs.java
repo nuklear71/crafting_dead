@@ -53,13 +53,13 @@ public class ModCreativeModTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> CRAFTING_DEAD_BLOCK_TAB = CREATIVE_MODE_TABS.register("crafting_dead_block_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLACK_WIGHT_TILES_SMALL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLACK_WHITE_TILES_SMALL.get()))
                     .title(Component.translatable("creativetab.crafting_dead_block_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //item in tabs add here
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL.get());
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_SLAB.get());
-                        pOutput.accept(ModBlocks.BLACK_WIGHT_TILES_SMALL_STAIRS.get());
+                        pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL.get());
+                        pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL_SLAB.get());
+                        pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL_STAIRS.get());
 
 
                     })

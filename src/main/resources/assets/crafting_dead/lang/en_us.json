@@ -30,12 +30,10 @@
   "creativetab.crafting_dead_block_tab": "CD blocks",
 
   //blocks
-  "block.crafting_dead.black_wight_tiles_small": "Black wight tiles small",
-  "block.crafting_dead.black_wight_tiles_small_slab": "Black wight tiles small slab",
-  "block.crafting_dead.black_wight_tiles_small_stairs": "Black wight tiles small stairs",
-  "block.crafting_dead.black_wight_tiles_small_crack": "Black wight tiles small crack",
-  "block.crafting_dead.black_wight_tiles_small_crack_slab": "Black wight tiles small crack slab",
-  "block.crafting_dead.black_wight_tiles_small_crack_stairs": "Black wight tiles small crack stairs",
+  "block.crafting_dead.black_white_tiles_small": "Black white tiles small",
+  "block.crafting_dead.black_white_tiles_small_slab": "Black white tiles small slab",
+  "block.crafting_dead.black_white_tiles_small_stairs": "Black white tiles small stairs",
+
 
   //keycard
   "item.crafting_dead.keycard_level_1": "§9Keycard level 1",
