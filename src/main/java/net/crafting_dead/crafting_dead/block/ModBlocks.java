@@ -17,6 +17,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CaftingDead.MOD_ID);
     //blocks add here
+    //black_white_tiles_small
     public static final RegistryObject<Block> BLACK_WHITE_TILES_SMALL = registerBlock("black_white_tiles_small",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> BLACK_WHITE_TILES_SMALL_SLAB = registerBlock("black_white_tiles_small_slab",
@@ -24,6 +25,16 @@ public class ModBlocks {
 
     public static final  RegistryObject<Block> BLACK_WHITE_TILES_SMALL_STAIRS = registerBlock("black_white_tiles_small_stairs",
             () -> new  StairBlock( BLACK_WHITE_TILES_SMALL.get().defaultBlockState(),BlockBehaviour.Properties.copy(BLACK_WHITE_TILES_SMALL.get())));
+
+    //black_white_tiles_small_crack
+
+    public static final RegistryObject<Block> BLACK_WHITE_TILES_SMALL_CRACK = registerBlock("black_white_tiles_small_crack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> BLACK_WHITE_TILES_SMALL_CRACK_SLAB = registerBlock("black_white_tiles_small_crack_slab",
+            () -> new   SlabBlock(BlockBehaviour.Properties.copy(BLACK_WHITE_TILES_SMALL_CRACK.get())));
+
+    public static final  RegistryObject<Block> BLACK_WHITE_TILES_SMALL_CRACK_STAIRS = registerBlock("black_white_tiles_small_crack_stairs",
+            () -> new  StairBlock( BLACK_WHITE_TILES_SMALL.get().defaultBlockState(),BlockBehaviour.Properties.copy(BLACK_WHITE_TILES_SMALL_CRACK.get())));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

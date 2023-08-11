@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crafting_dead:block/cracked_black_white_tiles_small_slab"
+    },
+    "type=double": {
+      "model": "crafting_dead:block/cracked_black_white_tiles_small"
+    },
+    "type=top": {
+      "model": "crafting_dead:block/cracked_black_white_tiles_small_slab_top"
+    }
+  }
+}
