@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "crafting_dead:block/cracked_black_white_tiles_small",
+    "side": "crafting_dead:block/cracked_black_white_tiles_small",
+    "top": "crafting_dead:block/cracked_black_white_tiles_small"
+  }
+}
