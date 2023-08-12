@@ -62,6 +62,18 @@ public class ModCreativeModTabs {
                         //
                         pOutput.accept(ModBlocks.ROCKY_DIRT.get());
                         pOutput.accept(ModBlocks.ROCKY_DIRT_SLAB.get());
+
+                        pOutput.accept(ModBlocks.STONE_1.get());
+                        pOutput.accept(ModBlocks.STONE_1_SLAB.get());
+                        pOutput.accept(ModBlocks.STONE_1_STAIRS.get());
+                        //
+                        pOutput.accept(ModBlocks.STONE_2.get());
+                        pOutput.accept(ModBlocks.STONE_2_SLAB.get());
+                        pOutput.accept(ModBlocks.STONE_2_STAIRS.get());
+                        //
+                        pOutput.accept(ModBlocks.STONE_3.get());
+                        pOutput.accept(ModBlocks.STONE_3_SLAB.get());
+                        pOutput.accept(ModBlocks.STONE_3_STAIRS.get());
                         //
                         pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL.get());
                         pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL_SLAB.get());

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "crafting_dead:block/stone_1",
+    "side": "crafting_dead:block/stone_1",
+    "top": "crafting_dead:block/stone_1"
+  }
+}

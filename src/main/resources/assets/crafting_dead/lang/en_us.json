@@ -40,7 +40,15 @@
   "block.crafting_dead.dirt_slab": "Dirt slab",
   "block.crafting_dead.rocky_dirt": "Rocky dirt",
   "block.crafting_dead.rocky_dirt_slab": "Rocky dirt slab",
-
+  "block.crafting_dead.stone_1": "Stone 1",
+  "block.crafting_dead.stone_1_slab": "Stone 1 slab",
+  "block.crafting_dead.stone_1_stairs": "Stone 1 stairs",
+  "block.crafting_dead.stone_2": "Stone 2",
+  "block.crafting_dead.stone_2_slab": "Stone 2 slab",
+  "block.crafting_dead.stone_2_stairs": "Stone 2 stairs",
+  "block.crafting_dead.stone_3": "Stone 3",
+  "block.crafting_dead.stone_3_slab": "Stone 3 slab",
+  "block.crafting_dead.stone_3_stairs": "Stone 3 stairs",
   //keycard
   "item.crafting_dead.keycard_level_1": "§9Keycard level 1",
   "item.crafting_dead.keycard_level_2": "§2Keycard level 2",

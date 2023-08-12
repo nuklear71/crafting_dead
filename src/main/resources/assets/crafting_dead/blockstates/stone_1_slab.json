@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crafting_dead:block/stone_1_slab"
+    },
+    "type=double": {
+      "model": "crafting_dead:block/stone_1"
+    },
+    "type=top": {
+      "model": "crafting_dead:block/stone_1_slab_top"
+    }
+  }
+}
