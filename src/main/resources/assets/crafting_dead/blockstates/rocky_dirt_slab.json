@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crafting_dead:block/rocky_dirt_slab"
+    },
+    "type=double": {
+      "model": "crafting_dead:block/rocky_dirt"
+    },
+    "type=top": {
+      "model": "crafting_dead:block/rocky_dirt_slab_top"
+    }
+  }
+}

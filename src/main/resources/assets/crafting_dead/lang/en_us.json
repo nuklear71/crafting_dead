@@ -36,7 +36,10 @@
   "block.crafting_dead.cracked_black_white_tiles_small": "Cracked black white tiles small",
   "block.crafting_dead.cracked_black_white_tiles_small_slab": "Cracked black white tiles small slab",
   "block.crafting_dead.cracked_black_white_tiles_small_stairs": "Cracked black white tiles small stairs",
-
+  "block.crafting_dead.dirt": "Dirt",
+  "block.crafting_dead.dirt_slab": "Dirt slab",
+  "block.crafting_dead.rocky_dirt": "Rocky dirt",
+  "block.crafting_dead.rocky_dirt_slab": "Rocky dirt slab",
 
   //keycard
   "item.crafting_dead.keycard_level_1": "§9Keycard level 1",

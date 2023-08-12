@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crafting_dead:block/dirt_slab"
+    },
+    "type=double": {
+      "model": "crafting_dead:block/dirt"
+    },
+    "type=top": {
+      "model": "crafting_dead:block/dirt_slab_top"
+    }
+  }
+}

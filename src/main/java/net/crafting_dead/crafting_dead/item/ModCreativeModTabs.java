@@ -57,9 +57,16 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.crafting_dead_block_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //item in tabs add here
+                        pOutput.accept(ModBlocks.DIRT.get());
+                        pOutput.accept(ModBlocks.DIRT_SLAB.get());
+                        //
+                        pOutput.accept(ModBlocks.ROCKY_DIRT.get());
+                        pOutput.accept(ModBlocks.ROCKY_DIRT_SLAB.get());
+                        //
                         pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL.get());
                         pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL_SLAB.get());
                         pOutput.accept(ModBlocks.BLACK_WHITE_TILES_SMALL_STAIRS.get());
+                        //
                         pOutput.accept(ModBlocks.CRACKED_BLACK_WHITE_TILES_SMALL.get());
                         pOutput.accept(ModBlocks.CRACKED_BLACK_WHITE_TILES_SMALL_SLAB.get());
                         pOutput.accept(ModBlocks.CRACKED_BLACK_WHITE_TILES_SMALL_STAIRS.get());

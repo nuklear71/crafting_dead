@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "crafting_dead:block/rocky_dirt",
+    "side": "crafting_dead:block/rocky_dirt",
+    "top": "crafting_dead:block/rocky_dirt"
+  }
+}
